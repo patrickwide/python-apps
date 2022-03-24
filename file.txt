@@ -1,0 +1,21 @@
+batabase-class{class-icon ic_s_db}
+
+text filed for putting my db name -name{new_db}
+
+click the go icon to make batabase-id{buttonGo}
+
+type in table name-name{table}
+create table-value{go}
+
+         input names for table-id {field_0_1}{field_1_1}{field_2_1}{field_3_1}
+choose the style for the table -id{field_0_2}{field_1_2}{field_2_2}{field_3_2}
+input charachter size-id{field_0_3}{field_1_3}{field_2_3}{field_3_3}
+click -cannot be null-name{field_null[0]}{field_null[1]}{field_null[2]}{field_null[3]}
+email to be unique -id{field_2_8}
+
+insert
+click sql btn -class{icon ic_b_sql}
+{  print("contact_us.sql").send_keys(Keys.RETURN)
+        time.sleep(2)
+        bot.execute_script("window.scrollTo(0,document.body.scrollHeight)");
+}
